@@ -54,7 +54,7 @@ class MyApp extends StatelessWidget {
                   scale: 0.9,
                   itemBuilder: (BuildContext context, int index) {
                     return Image.network(
-                      "https://via.placeholder.com/350x150",
+                      "https://i.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U",
                       fit: BoxFit.fill,
                     );
                   },
@@ -86,3 +86,5 @@ class Pagina extends StatelessWidget {
     );
   }
 }
+
+
